@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(202, 230, 249);
+    font-family: arial;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 100px;
+    width: 500px;
+}
+
+.title h1{
+    color: rgb(54, 136, 174);
+}
+
+.inputTasks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.inputTasks input{
+    border: none;
+    padding: 7px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.inputTasks input:focus{
+    outline: none;
+}
+
+.inputTasks button{
+    border: none;
+    padding: 7px 10px;
+    background-color: rgb(107, 208, 174);
+    color: rgb(23, 124, 85);
+    border-radius: 5px;
+}
+
+.inputTasks button:hover{
+    background-color: rgb(122, 226, 191);
+}
+
+.contentTasks ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 30px;
+}
+
+.contentTasks li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentTasks button{
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-image: url('./lixo3.png');
+    background-size:cover;
+    background-position: center;
+    background-color: rgba(240, 248, 255, 0);
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.contentTasks button:hover{
+    background-color: rgba(206, 156, 147, 0.307);
+}
